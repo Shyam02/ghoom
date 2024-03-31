@@ -11,15 +11,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-}
-
-/* Heading Styles */
-h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    display: none; /* Hide the header */
 }
 
 /* Section Styles */
@@ -27,29 +19,16 @@ section {
     padding: 20px;
 }
 
-/* Image Styles */
-img {
-    display: block;
-    margin: 0 auto; /* Center the image horizontally */
-    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-}
-
 /* Paragraph Styles */
 p {
-    font-size: 32px;
+    font-size: 18px;
     line-height: 1.5;
 }
 
-/* Mobile Responsive Styles */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 24px;
-    }
-    p {
-        font-size: 20px;
-    }
-    img {
-        width: 80%; /* Adjust the image width for smaller screens */
-    }
+/* Video Styles */
+iframe {
+    max-width: 100%; /* Make sure the video fills the container */
+    height: auto; /* Make sure the video maintains aspect ratio */
+    margin: 0 auto; /* Center the video horizontally */
 }
 
