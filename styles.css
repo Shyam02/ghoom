@@ -1,37 +1,30 @@
-/* CSS Styles for Video Gallery */
-
-/* Body Styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+/* Header Styles */
+header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around the header */
+    text-align: center; /* Center-align header content */
 }
 
-/* Grid Container Styles */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    grid-gap: 20px; /* Gap between grid items */
-    padding: 20px; /* Padding around the grid container */
+/* Company Name Styles */
+h1 {
+    margin: 0; /* Remove default margin for the company name */
+    font-size: 36px; /* Adjust font size */
 }
 
-/* Grid Row Styles */
-.grid-row {
-    display: flex;
-    flex-wrap: wrap;
-    margin: -10px; /* Negative margin to counteract grid-gap */
+/* Navigation Styles */
+nav ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
 }
 
-/* Grid Item Styles */
-.grid-item {
-    flex: 1 1 calc(50% - 20px); /* Two items per row */
-    margin: 10px; /* Margin between grid items */
+nav ul li {
+    display: inline; /* Display navigation items horizontally */
+    margin-right: 20px; /* Add spacing between navigation items */
 }
 
-/* Video iframe Styles */
-iframe {
-    width: 100%; /* Ensure video takes up full width of grid item */
-    height: 100%; /* Ensure video takes up full height of grid item */
+nav ul li a {
+    color: #fff; /* Text color for navigation links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make navigation links bold */
 }
