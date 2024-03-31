@@ -1,11 +1,12 @@
 /* CSS Styles for Video Gallery and Header */
 
+
 /* Body Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
+    margin: 20px; /* Custom margin */
+    padding: 20px; /* Custom padding */
     text-align: center;
 }
 
@@ -13,13 +14,13 @@ body {
 header {
     background-color: #1DA1F2; /* Twitter blue */
     color: #fff; /* White text */
-    padding: 10px 20px; /* Reduced padding for top and bottom */
+    padding: 10px 10px; /* Reduced padding for top and bottom */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
 /* Heading Styles */
 h1 {
-    font-size: 36px;
+    font-size: 32px;
     margin-bottom: 20px;
 }
 
@@ -47,6 +48,7 @@ p {
     border-radius: 8px; /* Add rounded corners */
     overflow: hidden; /* Hide overflow content */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    height: 300px; /* Set a fixed height for all grid items */
 }
 
 /* Video iframe Styles */
