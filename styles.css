@@ -9,26 +9,15 @@ body {
     text-align: center;
 }
 
-/* Header Styles */
-header {
-    display: none; /* Hide the header */
-}
-
 /* Section Styles */
 section {
     padding: 20px;
 }
 
-/* Paragraph Styles */
-p {
-    font-size: 18px;
-    line-height: 1.5;
-}
-
 /* Video Styles */
 iframe {
-    max-width: 100%; /* Make sure the video fills the container */
-    height: auto; /* Make sure the video maintains aspect ratio */
-    margin: 0 auto; /* Center the video horizontally */
+    max-width: 100%; /* Ensure video stays within container */
+    height: auto; /* Allow video to adjust height based on width */
 }
+
 
