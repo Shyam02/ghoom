@@ -13,7 +13,8 @@ body {
 header {
     background-color: #1DA1F2; /* Twitter blue */
     color: #fff; /* White text */
-    padding: 20px;
+    padding: 10px 20px; /* Reduced padding for top and bottom */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
 /* Heading Styles */
@@ -36,22 +37,16 @@ p {
 /* Grid Container Styles */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Automatically adjust column width */
     grid-gap: 20px; /* Gap between grid items */
     padding: 20px; /* Padding around the grid container */
 }
 
-/* Grid Row Styles */
-.grid-row {
-    display: flex;
-    flex-wrap: wrap;
-    margin: -10px; /* Negative margin to counteract grid-gap */
-}
-
 /* Grid Item Styles */
 .grid-item {
-    flex: 1 1 calc(50% - 20px); /* Two items per row */
-    margin: 10px; /* Margin between grid items */
+    border-radius: 8px; /* Add rounded corners */
+    overflow: hidden; /* Hide overflow content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
 /* Video iframe Styles */
