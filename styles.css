@@ -4,11 +4,12 @@
 header {
     background-color: #1DA1F2;
     color: white;
-    padding: 20px;
+    padding: 5px; /* Adjusted header padding */
     text-align: center;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 50px; /* Set header height to 50px */
 }
 
 /* Apply styles to the navigation links */
@@ -16,15 +17,17 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align navigation to the right */
+    align-items: center; /* Vertically center the navigation */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px; /* Adjust margin to space from the right */
+    margin-right: 20px;
 }
 
 nav ul li:last-child {
-    margin-right: 0; /* Remove margin from the last navigation item */
+    margin-right: 0;
 }
 
 nav ul li a {
@@ -52,10 +55,4 @@ iframe {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-}
-
-/* Additional styles to center the "About Us" navigation horizontally */
-nav ul {
-    text-align: right; /* Align the navigation items to the right */
-    flex-grow: 1; /* Allow the navigation to take up the remaining space */
 }
