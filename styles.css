@@ -47,11 +47,13 @@ p {
     border-radius: 8px; /* Add rounded corners */
     overflow: hidden; /* Hide overflow content */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
 }
 
 /* Video iframe Styles */
 iframe {
-    width: 100%; /* Ensure video takes up full width of grid item */
-    height: 100%; /* Ensure video takes up full height of grid item */
-    padding-top: 56.25%; /* Maintain 16:9 aspect ratio */
+    max-width: 100%; /* Ensure video maintains aspect ratio */
+    max-height: 100%; /* Ensure video maintains aspect ratio */
 }
