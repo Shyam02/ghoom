@@ -60,6 +60,8 @@ nav ul {
 /* Apply styles to the grid items */
 .grid-item {
     border-radius: 10px;
+    border: 1px solid #ccc; /* Add a light border */
+    padding: 10px; /* Add spacing inside each container */
 }
 
 /* Apply styles to the iframe videos */
