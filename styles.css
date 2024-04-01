@@ -4,7 +4,7 @@
 header {
     background-color: #1DA1F2;
     color: white;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -18,6 +18,10 @@ nav ul li {
     margin-right: 20px;
 }
 
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last navigation item */
+}
+
 nav ul li a {
     text-decoration: none;
     color: white;
@@ -26,18 +30,23 @@ nav ul li a {
 /* Apply styles to the grid container */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusting container width */
     grid-gap: 20px;
+    padding: 20px; /* Add padding to create gaps between container and edges */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
 }
 
 /* Apply styles to the grid items */
 .grid-item {
-    border: 1px solid #333;
-    padding: 20px;
+    /* Remove border and padding from grid items */
+    /* border: 1px solid #333; */
+    /* padding: 20px; */
 }
 
 /* Apply styles to the iframe videos */
 iframe {
     width: 100%;
     height: 100%;
+    border-radius: 10px; /* Add border radius to videos */
 }
