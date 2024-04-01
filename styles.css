@@ -36,10 +36,11 @@ nav ul li a {
 
 /* Additional styles for the header text */
 h1 {
-    margin: 0 20px 0 0; /* Adjust the margin to add more space to the left */
+    margin: 0 20px; /* Adjust the margin to add equal space on both sides */
     font-size: 24px;
     line-height: 50px; /* Vertically center the header text */
 }
+
 
 /* Additional styles for the "About Us" navigation */
 nav ul {
@@ -53,15 +54,15 @@ nav ul {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Apply styles to the grid items */
 .grid-item {
     border-radius: 10px;
-    border: 1px solid #ccc; /* Add a light border */
-    padding: 10px; /* Add spacing inside each container */
+    border: 0.5px solid #ccc; /* Add a light border */
+    padding: 20px; /* Add spacing inside each container */
 }
 
 /* Apply styles to the iframe videos */
