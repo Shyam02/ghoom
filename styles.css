@@ -30,7 +30,7 @@ nav ul li a {
 /* Apply styles to the grid container */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusting container width */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusting container width */
     grid-gap: 20px;
     padding: 20px; /* Add padding to create gaps between container and edges */
     border-radius: 10px; /* Add border radius for rounded corners */
@@ -42,6 +42,7 @@ nav ul li a {
     /* Remove border and padding from grid items */
     /* border: 1px solid #333; */
     /* padding: 20px; */
+    border-radius: 10px; /* Add border radius to grid items */
 }
 
 /* Apply styles to the iframe videos */
