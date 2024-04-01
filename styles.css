@@ -40,6 +40,7 @@ p {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Automatically adjust column width */
     grid-gap: 20px; /* Gap between grid items */
     padding: 20px; /* Padding around the grid container */
+    align-items: stretch; /* Stretch grid items to the full height of the row */
 }
 
 /* Grid Item Styles */
@@ -50,3 +51,5 @@ p {
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Arrange content vertically */
     justify-content: space-between; /* Space items evenly along vertical axis */
+    align-items: stretch; /* Stretch items to match the tallest one in the row */
+}
