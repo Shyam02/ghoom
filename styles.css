@@ -4,19 +4,23 @@
 header {
     background-color: #1DA1F2;
     color: white;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Align items with space between */
+    align-items: center; /* Vertically center items */
 }
 
 /* Apply styles to the navigation links */
 nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
     display: inline;
     margin-right: 20px;
-    vertical-align: middle;
 }
 
 nav ul li:last-child {
@@ -26,16 +30,6 @@ nav ul li:last-child {
 nav ul li a {
     text-decoration: none;
     color: white;
-}
-
-/* Apply styles to the grid container */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusting container width */
-    grid-gap: 20px;
-    padding: 20px; /* Add padding to create gaps between container and edges */
-    border-radius: 10px; /* Add border radius for rounded corners */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
 }
 
 /* Apply styles to the grid items */
