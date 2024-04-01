@@ -13,9 +13,37 @@ body {
 header {
     background-color: #1DA1F2; /* Twitter blue */
     color: #fff; /* White text */
-    padding: 5px 10px; /* Reduced padding for top and bottom */
+    padding: 10px; /* Padding for all sides */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
+
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Align items with space between */
+    align-items: center; /* Center items vertically */
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0; /* Remove default margin */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-left: 20px; /* Add spacing between list items */
+}
+
+nav ul li a {
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline from links */
+}
+
 
 /* Heading Styles */
 h1 {
