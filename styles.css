@@ -36,7 +36,7 @@ nav ul li a {
 
 /* Additional styles for the header text */
 h1 {
-    margin: 0;
+    margin: 0 20px 0 0; /* Adjust the margin to add more space to the left */
     font-size: 24px;
     line-height: 50px; /* Vertically center the header text */
 }
