@@ -13,7 +13,7 @@ body {
 header {
     background-color: #1DA1F2; /* Twitter blue */
     color: #fff; /* White text */
-    padding: 10px 10px; /* Reduced padding for top and bottom */
+    padding: 5px 10px; /* Reduced padding for top and bottom */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
