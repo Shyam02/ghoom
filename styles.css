@@ -7,7 +7,7 @@ header {
     padding: 5px; /* Adjusted header padding */
     text-align: center;
     display: flex;
-    justify-content: center; /* Horizontally center the content */
+    justify-content: space-between; /* Space evenly between header items */
     align-items: center; /* Vertically center the content */
     height: 50px; /* Set header height to 50px */
 }
@@ -18,7 +18,6 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end; /* Align navigation to the right */
     align-items: center; /* Vertically center the navigation */
 }
 
@@ -55,4 +54,18 @@ iframe {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+}
+
+/* Additional styles for the header text */
+h1 {
+    margin: 0; /* Remove default margin */
+    flex-grow: 1; /* Allow the header text to take up remaining space */
+    text-align: center; /* Horizontally center the header text */
+    font-size: 24px; /* Adjust font size */
+    line-height: 50px; /* Vertically center the header text */
+}
+
+/* Additional styles for the "About Us" navigation */
+nav ul {
+    flex-shrink: 0; /* Prevent navigation from shrinking */
 }
